@@ -1,0 +1,22 @@
+.create {
+  background-color: #ee780a;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 20px;
+}
+.container {
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+}
+form{
+  width: 50%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}

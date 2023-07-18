@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1b1b1b;
+}
+.background-image{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    animation: change 30s infinite ease-in-out;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url("https://picstatio.com/large/374eb7/gym-girl-model-exercise.jpg");
+    }
+    20%
+    {
+        background-image: url("https://picstatio.com/large/2i1x0i/bodybuilding_bodybuilder_muscle_rod_wallpaper.jpg");
+    }
+    40%
+    {
+        background-image: url("https://picstatio.com/large/ttkhak/Helga-Lovekaty-girl-model-in-gym-wallpaper.jpg");
+    }
+    60%
+    {
+        background-image: url("https://images3.alphacoders.com/990/990235.jpg");
+    }
+    80%
+    {
+        background-image: url("https://www.sportlife.es/uploads/static/sportlife/upload/images/gallery/5f4628c40de6941a433495f0/5f4629ec0ce694885a8b4964-personaliza-tu-peso-muerto.jpg");
+    }
+    100%
+    {
+        background-image: url("https://picstatio.com/large/v3rofu/girl-model-fitness-gym-wallpaper.jpg");
+    }
+}
+.aboutus-contacts{
+    background-color: #1b1b1b;
+    color: white;
+    
+}
+.button-aboutus{
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.button-contacts{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.button-aboutus:active{
+    background-color: #1b1b1b;
+    color: white;
+
+}
+.button-contacts:active{
+    background-color: #1b1b1b;
+    color: white;
+
+}
+.about{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+.contact{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+
+}
+.aboutus-contacts{
+    display: flex;
+    justify-content: center;
+}
+#paragraphs{
+    background-color: #1b1b1b;
+    margin-bottom: 10px;
+}
+.button-clear{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.welcome{
+ color:white;
+ font-family:Impact, fantasy;
+}
+
+
+ 
